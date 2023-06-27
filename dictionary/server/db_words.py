@@ -4,7 +4,7 @@
 import pymysql
 
 
-class WordsDBHandler():
+class WordsDBHandler:
     '''
     字典查询类
     '''
