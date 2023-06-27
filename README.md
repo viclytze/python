@@ -1,4 +1,4 @@
 Python 学习
 
-12345
+dictionary-------基于tcp的远程字典
 
