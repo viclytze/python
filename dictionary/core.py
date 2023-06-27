@@ -30,3 +30,9 @@ class TcpsServer:
                         del self.map_[fn]
                         continue
                     self.map_[fn].send(b'ok')
+
+
+if __name__ == '__main__':
+    addr = ('0.0.0.0',8600)
+    tcp_server = TcpsServer(addr)
+    tcp_server.main()
